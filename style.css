@@ -62,15 +62,9 @@ div.orange:hover ~div.bg {
 	opacity: 0;
 	transition: .5s;
 }
-div.red:hover ~div.bg p.red {
-	opacity: 1;
-}
-div.green:hover ~div.bg p.green {
-	opacity: 1;
-}
-div.blue:hover ~div.bg p.blue {
-	opacity: 1;
-}
+div.red:hover ~div.bg p.red,
+div.green:hover ~div.bg p.green,
+div.blue:hover ~div.bg p.blue,
 div.orange:hover ~div.bg p.orange {
 	opacity: 1;
 }

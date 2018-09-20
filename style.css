@@ -60,6 +60,7 @@ div.orange:hover ~div.bg {
 	font-family: arial;
 	font-size: 40px;
 	opacity: 0;
+	transition: .5s;
 }
 div.red:hover ~div.bg p.red {
 	opacity: 1;
